@@ -114,25 +114,20 @@ const StyledPic = styled.div`
 `;
 
 const About = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `);
-
   const revealContainer = useRef(null);
 
   useEffect(() => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'CSS & SASS',
+    'React (Hooks)',
+    'Node.js',
+    'Gatsby',
+    'Firebase',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,34 +136,25 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Oscar, a web developer based in Arequipa, Peru.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I’m very passionate about web development and user experience. I love seeing new
+              challenges, getting to solve one problem at a time, and sharing my thoughts.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              My goal is to always build products that solves what my clients need while I'm getting
+              constantly learn and discover new things.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are a few technologies I've been working quite recently:</p>
           </div>
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-
-        <StyledPic>
-          <div className="wrapper">
-            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
-          </div>
-        </StyledPic>
       </div>
     </StyledAboutSection>
   );
