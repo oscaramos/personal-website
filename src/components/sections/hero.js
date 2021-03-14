@@ -49,11 +49,11 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Oscar Ramos.</h2>;
-  const three = <h3 className="big-heading">I build stunning websites with Passion and Dedication</h3>;
+  const three = <h3 className="big-heading">I build stunning websites</h3>;
   const four = (
     <p>
-      I'm a web developer based in Arequipa, Peru specializing in building (and
-      designing) high quality websites, applications, using best practices.
+      I'm a web developer based in Arequipa, Peru specializing in building (and designing) high
+      quality websites, applications, with passion and dedication. Always using best practices.
     </p>
   );
   const five = (
