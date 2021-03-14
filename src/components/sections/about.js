@@ -122,8 +122,10 @@ const About = () => {
 
   const skills = [
     'JavaScript (ES6+)',
-    'CSS & SASS',
+    'CSS3 & SASS',
     'React (Hooks)',
+    'React Native',
+    'Airtable',
     'Node.js',
     'Gatsby',
     'Firebase',

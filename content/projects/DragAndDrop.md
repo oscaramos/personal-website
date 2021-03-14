@@ -1,5 +1,5 @@
 ---
-date: '2020-12-01'
+date: '2020-10-01'
 title: 'Drag and Drop'
 github: 'https://github.com/oscaramos/drag-and-drop'
 external: 'https://drag-and-drop-taupe.vercel.app/'
