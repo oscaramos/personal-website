@@ -15,8 +15,6 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/oscaramos/portfolio/main/src/images/demo.png)
-
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
