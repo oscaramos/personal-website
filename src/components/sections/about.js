@@ -125,6 +125,7 @@ const About = () => {
     'CSS3 & SASS',
     'React (Hooks)',
     'React Native',
+    'Vue 3 (composition api)',
     'Airtable',
     'Node.js',
     'Gatsby',
@@ -138,7 +139,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Oscar, a web developer based in Arequipa, Peru.</p>
+            <p>Hello! I'm Oscar, a frontend developer based in Arequipa, Peru.</p>
 
             <p>
               I’m very passionate about web development and user experience. I love seeing new

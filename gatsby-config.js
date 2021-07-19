@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Oscar Ramos',
     description:
-      'Oscar Ramos is a web developer based in Arequipa, Peru specializing in building (and occasionally designing) high quality websites, applications, and everything in between.',
+      'Oscar Ramos is a frontend developer based in Arequipa, Peru specializing in building (and occasionally designing) high quality websites, applications, and everything in between.',
     siteUrl: 'https://oscaramos.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@',

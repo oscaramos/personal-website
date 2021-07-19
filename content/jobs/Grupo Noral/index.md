@@ -1,11 +1,12 @@
 ---
-date: '2018-01-01'
+date: '2020-12-01'
 title: 'Web developer'
 company: 'Grupo Noral'
 location: 'Arequipa, Peru'
 range: 'Dec 2020 - Mar 2021'
 url: 'https://www.gruponoral.com'
 ---
-
-- Write modern, performant, maintainable, scalable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as React, TypeScript, Airtable, Firebase
+- Implemented front-end application using React and Typescript enabling fast product search.
+- Webpage visited by thousands of users
+- Optimized SEO to be on top of google searches.
+- Developed an easier data maintenance than using a traditional database, by using airtable as a backend.

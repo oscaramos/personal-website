@@ -52,7 +52,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build stunning websites</h3>;
   const four = (
     <p>
-      I'm a web developer based in Arequipa, Peru specializing in building (and designing) high
+      I'm a frontend developer based in Arequipa, Peru specializing in building (and designing) high
       quality websites, applications, with passion and dedication. Always using best practices.
     </p>
   );
